@@ -1,38 +1,11 @@
 import World from "./World";
+import styles from "./Hello.module.css";
 
 export default function Hello(){
     return (
-        <div> {/* jsx는 하나의 태그만 만들 수 있기 때문에 <></> 빈 태그 또는 div로 감싸줘야된다. */}
-            <h1>Hello</h1>
-            <World />
-            <World />
+        <div>
+            <h1 style={{color:'#f00', borderRight: '2px solid #fff', marginBottom: "30px", opacity: 0.5}}>Hello</h1>
+            <div className={styles.box}>Hello</div>
         </div>
     );
 }
-
-/*
-3가지 방법
-
-const Hello = function(){
-    return (
-        <p>Hello</p>;
-    );
-};
-
-export default Hello;
-
-const Hello = () => {
-    return (
-        <p>Hello</p>;
-    );
-};
-
-export default Hello; 
-
-export default function Hello(){
-    return (
-        <p>Hello</p>;
-    );
-}
-
-*/
