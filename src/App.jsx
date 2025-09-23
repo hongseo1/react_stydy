@@ -42,3 +42,22 @@ Switch 사용해서 Route 작성 시 EmptyPage 컴포넌트가 하단에 있어�
 
 하지만 v6 이상 번전에서 사용되는 <Routes>는 라우트 순서에 관계 없이 가장 정확하게 일치하는 경로를 찾아 렌더링한다. 경로가 구체적일 수록 /*와 같이 포괄적인 경로보다 우선순위가 높아진다. 그렇기에 예외 처리용 라우트 위치가 어디든 상관 없이 정확하게 동작한다는 차이가 있다.
 */
+
+
+/* 
+  json-server: .json 파일을 기반으로 REST API 서버를 만들어주는 도구
+  json-server 설치 후
+  json-server --watch ./src/db/data.json --port 3001
+  --watch > ./src/db/data.json 파일을 감시하면서 파일 내용이 변경될 때마다 서버를 자동으로 업데이트 해준다.
+  --port 3001 > 서버를 3001번 포트에서 실행되도록 지정한다. 지정하지 않으면 기본 3000번 포트에서 실행된다.
+
+  REST API: 클라이언트가 서버의 자원(Resource)에 (모든 데이터) 접근하는 방식을 정의하는 것
+  자원 식별에 URL을 사용하고 자원에 대한 행위(CRUD)를 정의하는데 HTTP method를 사용한다.
+
+  간단하게 말하면, URL 주소와 meathod로 CRUD 요청을 하는 것
+
+  Create : POST Method
+  Read : GET Method
+  Update : PUT Method
+  Delete : DELETE Method
+*/
