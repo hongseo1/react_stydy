@@ -133,6 +133,13 @@
       "eng": "jacket",
       "kor": "재킷",
       "isDone": false
+    },
+    {
+      "id": "cf60",
+      "day": "1",
+      "eng": "park",
+      "kor": "공원",
+      "isDone": false
     }
   ]
 }
