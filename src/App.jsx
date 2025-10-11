@@ -1,6 +1,8 @@
 import Header from "./component/Header";
 import DayList from "./component/DayList";
-import Day from "./component/Day"
+import Day from "./component/Day";
+import CreateWord from "./component/CreateWord";
+import CreateDay from "./component/CreateDay";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import EmptyPage from "./component/EmptyPage";
 //예제에서는 Switch를 사용했지만 v6 이상 버전에서는 Switch 컴포넌트가 제거 되었기 때문에 오류 발생, Switch 대신 Routes 사용. Routes 안에는 Route 컴포넌트만 자식으로 가질 수 있으므로 이동할 컴포넌트를 감싸 경로 지정을 해줘야한다. 
@@ -15,6 +17,8 @@ function App() {
         <Routes>
           <Route path="/" element={<DayList/>}></Route>
           <Route path="/day/:day" element={<Day/>}></Route>
+          <Route path="/create_word" element={<CreateWord/>}></Route>
+          <Route path="/create_day" element={<CreateDay/>}></Route>
           <Route path="*" element={<EmptyPage/>}></Route>
         </Routes>
       </div>

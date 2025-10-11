@@ -11,6 +11,14 @@
     {
       "id": "3",
       "day": 3
+    },
+    {
+      "id": "cd8f",
+      "day": 4
+    },
+    {
+      "id": "ad71",
+      "day": 5
     }
   ],
   "words": [
@@ -36,20 +44,6 @@
       "isDone": false
     },
     {
-      "day": 3,
-      "eng": "window",
-      "kor": "창문",
-      "isDone": false,
-      "id": "7"
-    },
-    {
-      "day": 3,
-      "eng": "house",
-      "kor": "집",
-      "isDone": false,
-      "id": "8"
-    },
-    {
       "day": 4,
       "eng": "monkey",
       "kor": "원숭이",
@@ -69,6 +63,76 @@
       "kor": "펜",
       "isDone": false,
       "id": "12"
+    },
+    {
+      "id": "9303",
+      "day": "3",
+      "eng": "window",
+      "kor": "창",
+      "isDone": false
+    },
+    {
+      "id": "c5a8",
+      "day": "3",
+      "eng": "honse",
+      "kor": "집",
+      "isDone": false
+    },
+    {
+      "id": "77bf",
+      "day": "1",
+      "eng": "bag",
+      "kor": "가방",
+      "isDone": false
+    },
+    {
+      "id": "eabc",
+      "day": "3",
+      "eng": "passport",
+      "kor": "여권",
+      "isDone": false
+    },
+    {
+      "id": "48e0",
+      "day": "3",
+      "eng": "customs",
+      "kor": "세관",
+      "isDone": false
+    },
+    {
+      "id": "069f",
+      "day": "5",
+      "eng": "computer",
+      "kor": "컴퓨터",
+      "isDone": false
+    },
+    {
+      "id": "a421",
+      "day": "5",
+      "eng": "sister",
+      "kor": "언니",
+      "isDone": false
+    },
+    {
+      "id": "fc34",
+      "day": "5",
+      "eng": "brother",
+      "kor": "형",
+      "isDone": false
+    },
+    {
+      "id": "7865",
+      "day": "5",
+      "eng": "tciket",
+      "kor": "표",
+      "isDone": false
+    },
+    {
+      "id": "8012",
+      "day": "5",
+      "eng": "jacket",
+      "kor": "재킷",
+      "isDone": false
     }
   ]
 }
